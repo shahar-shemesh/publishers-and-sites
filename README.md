@@ -2,7 +2,7 @@
 
 ## Overview
 
-Publishers and Sites is a web application developed using Angular for the frontend and Node.js with Express for the backend. The application allows Browsi admin-level users to manage their publishers and associated domains, including the number of ads displayed on mobile and desktop platforms. The backend ensures that data persists between server restarts by storing it in a JSON file.
+Publishers and Sites is a web application developed using Angular for the frontend and Node.js with Express for the backend. The application allows admin-level users to manage their publishers and associated domains, including the number of ads displayed on mobile and desktop platforms. The backend ensures that data persists between server restarts by storing it in a JSON file.
 
 ## Directory Structure
 
