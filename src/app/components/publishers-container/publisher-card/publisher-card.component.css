@@ -1,0 +1,43 @@
+.publisher-card {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.publisher-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.publisher-card h1 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.publisher-card span {
+  font-size: 1.5rem;
+  color: #777777;
+}
+
+.publisher-card hr {
+  border: none;
+  height: 0.125rem;
+  background-color: #e0e0e0;
+  margin: 2rem 0;
+}
+
+.publisher-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,14 @@
+<div class="publisher-card">
+
+  <h1>{{publisher.publisher}}</h1>
+  <span>({{domains.length}} domains)</span>
+
+  <hr>
+
+  <div class="publisher-card-container">
+    <app-domain-card *ngFor="let domain of domains" [domain]="domain" [publisherName]="publisher.publisher"
+      (domainDeleted)="onDomainDeleted($event)">
+    </app-domain-card>
+  </div>
+
+</div>

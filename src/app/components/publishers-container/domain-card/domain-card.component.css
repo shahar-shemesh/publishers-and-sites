@@ -1,0 +1,69 @@
+.domain-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: 0.125rem solid #e0e0e0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.domain-card-container:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.domain-info {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.domain-field {
+  margin-bottom: 1rem;
+}
+
+.domain-field label {
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #555555;
+}
+
+.domain-field input {
+  width: 5rem;
+  padding: 1rem;
+  border: 0.125rem solid #cccccc;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.domain-field input:focus {
+  border-color: #007bff;
+}
+
+.domain-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.delete-btn:focus {
+  outline: none;
+}

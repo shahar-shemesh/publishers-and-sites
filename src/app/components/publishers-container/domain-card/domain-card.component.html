@@ -1,0 +1,21 @@
+<div class="domain-card-container">
+
+    <div class="domain-info">
+        <strong>{{ domain.url }}</strong>
+    </div>
+    
+    <div class="domain-field">
+        <label for="desktopAds">Desktop Ads: </label>
+        <input type="number" [(ngModel)]="domain.desktopAds" (change)="updateDomain(domain)" min="0">
+    </div>
+
+    <div class="domain-field">
+        <label for="mobileAds">Mobile Ads: </label>
+        <input type="number" [(ngModel)]="domain.mobileAds" (change)="updateDomain(domain)" min="0">
+    </div>
+
+    <div class="domain-actions">
+        <button class="delete-btn" (click)="deleteDomain(domain.url)">Delete Domain</button>
+    </div>
+
+</div>
