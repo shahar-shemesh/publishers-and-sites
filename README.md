@@ -74,7 +74,7 @@ Follow these steps:
 
 3. Start the backend server:
     ```bash
-    node server.js
+    node backend/server.js
     ```
 
 4. Open a new terminal, and start the Angular frontend application:
